@@ -1,0 +1,31 @@
+widget:
+  name: ChatGPT
+form:
+  service:
+    label: Služba
+    option:
+      openai: OpenAI
+      custom: Vlastní
+  endpoint: Endpoint
+  model: Model
+  custom-model: Vlastní model
+  token: Token
+  advanced-configuration: Pokročilé nastavení (verze PRO)
+  temperature: Teplota
+  top_p: Top-p
+  max_tokens: Maximální počet tokenů
+  n: N
+  stream_response: Streamování odpovědi
+  pro-version:
+    label: PRO verze
+    feature:
+      choose-chatgpt-model: ➕ Vyberte model ChatGPT
+      advanced-configuration: ➕ Pokročilé konfigurační parametry pro rychlé 
+        odpovědi
+      stop-response-generation: ➕ Tlačítko pro zastavení generování odpovědi
+      copy-button: ➕ Kopírovací tlačítko v sekci Markdown
+      customizable-endpoint: ➕ Přizpůsobitelné pole pro koncové body API
+    get-pro: 'Získejte PRO:'
+view:
+  message:
+    placeholder: Odeslat zprávu

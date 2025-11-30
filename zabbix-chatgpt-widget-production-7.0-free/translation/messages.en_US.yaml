@@ -1,0 +1,30 @@
+widget:
+    name: 'ChatGPT'
+form:
+    service:
+        label: 'Service'
+        option:
+            openai: 'OpenAI'
+            custom: 'Custom'
+    endpoint: 'Endpoint'
+    model: 'Model'
+    custom-model: 'Custom model'
+    token: 'Token'
+    advanced-configuration: 'Advanced configuration (PRO version)'
+    temperature: 'Temperature'
+    top_p: 'Top P'
+    max_tokens: 'Max tokens'
+    n: 'N'
+    stream_response: 'Stream response'
+    pro-version:
+        label: 'PRO version'
+        feature:
+            choose-chatgpt-model: '➕ Choose ChatGPT model'
+            advanced-configuration: '➕ Advanced configuration parameters for prompt responses'
+            stop-response-generation: '➕ Button for stopping response generation'
+            copy-button: '➕ Copy button within markdown section'
+            customizable-endpoint: '➕ Customizable field for API endpoints'
+        get-pro: 'Get PRO:'
+view:
+    message:
+        placeholder: 'Send a message'

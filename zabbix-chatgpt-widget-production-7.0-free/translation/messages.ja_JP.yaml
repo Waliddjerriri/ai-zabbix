@@ -1,0 +1,30 @@
+widget:
+  name: ChatGPT
+form:
+  service:
+    option:
+      openai: OpenAI
+      custom: カスタム
+    label: サービス
+  pro-version:
+    label: プロ版
+    feature:
+      choose-chatgpt-model: ➕ ChatGPTモデルを選択
+      advanced-configuration: ➕ 迅速な応答のための高度な設定パラメータ
+      stop-response-generation: ➕ 応答生成を停止するボタン
+      copy-button: ➕ マークダウンセクション内のコピーボタン
+      customizable-endpoint: ➕ APIエンドポイントのカスタマイズ可能なフィールド
+    get-pro: 'PROを入手:'
+  endpoint: エンドポイント
+  model: モデル
+  custom-model: カスタムモデル
+  token: トークン
+  temperature: 温度
+  advanced-configuration: 高度な設定（PRO版）
+  top_p: Top-P
+  max_tokens: 最大トークン数
+  n: N
+  stream_response: ストリーム応答
+view:
+  message:
+    placeholder: メッセージを送信
